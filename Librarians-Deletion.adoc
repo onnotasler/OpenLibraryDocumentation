@@ -1,0 +1,76 @@
+= Non-Book entries
+:icons: image
+:icondir: images/icons/
+:icontype: svg
+:toc:
+:toclevels: 4
+
+== Goal
+
+OpenLibrary shall contain all the published books of humankind available to everyone in the world with excellent metadata.
+
+== Problem
+
+Many catalogues we import from are meant for retailers and thus also contain data about non-book merchandise which they sell. Furthermore, some imports contain wrong data, for example setting the publisher as an author.
+
+Common example of non-books are:
+
+* Marketing material like wholesaler multipacks, dumpbins, prepacks, retail displays
+* Toys, games, cards{empty}footnote:toys[Unless as part of a book. In this case, only the bundle of book and non-book is entered into OpenLibrary. The non-book does not get a separate entry.]
+* Video of any format
+* Audio recordings of theatrical, TV, or radio performances{empty}footnote:audio[Unless they include the full text of the written work.]
+* Recorded music{empty}footnote:toys[]
+* Greeting cards, note cards, writing paper, notebooks and other stationaries
+* Office supplies
+* Calendars, journals, blank books{empty}footnote:calendars[Unless they a) contain significant editorial or visual content or b) are available as scanned items on archive.org. They can be good resources for visual design.]
+* Loose pages
+* Video games{empty}footnote:toys[]
+* Brochures
+* Annual reports
+* Posters
+* Stand-alone software{empty}footnote:toys[]
+* Textiles
+* Printed advertisements
+
+== Solution
+
+Non-Book and Non-Author entries can be deleted.
+
+== Procedure
+
+The deletion process depends on your status: Visitor, Patron, librarian or lead librarian.
+
+=== Visitors and Patrons
+
+Please report non-book and non-author entries through the contact form.
+
+==== Non-Authors
+We need the author profile IDs. The profile ID starts with "OL" followed by numbers and ends with "A".
+
+==== Non-Books
+We need the works name and the work IDs. The work ID starts with "OL" followed by numbers and ends with "W".
+
+(You can simply copy the link to the profile, it contains the ID).
+
+=== Librarians
+Report non-book and non-author entries through the contact form or on Slack, just like a Visitor or Patron.
+
+=== Lead Librarians
+
+Only lead librarians can delete entries from the database. Items should be thoroughly vetted before deletion
+
+CAUTION: Deleted items may cause errors if accessed by API.
+
+==== Is it an invalid entry?
+
+Check whether an entry is truly invalid according to our content guidelines for valid books.
+
+==== Can it be linked to a valid entry?
+
+Sometimes, invalid entries can be clearly connected to a specific work. This most commonly happens with marketing material, for example a floor display with several copies of a book. In this case, the invalid entry should be merged with the valid work and only the invalid editions are deleted.
+
+If invalid entries are just losely connected to a work (for example a toy based on a character from a book), it should be deleted directly.
+
+==== Deletion
+
+If an entry is truly invalid and cannot be linked a valid entry either, simply click on the big, orange framed Delete Record button on the upper right corner of the Edit page.
