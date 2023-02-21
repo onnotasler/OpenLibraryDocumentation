@@ -118,7 +118,7 @@ The primary profile can have as many editions as it wants, but secondary works m
 
 Thus, you need to assign editions in excess of 200 from secondary works to the primary work first. If a work tops the limit by just a few editions, you can do that manually (see: Assigning Editions). Otherwise, you need to use the link:https://colab.research.google.com/drive/1BO0c8aDpfENA8Qsg0-fv_7st6j4AmeAq?usp=sharing#scrollTo=-zun5QSIrYaZ[Google Colab Migrate Editions Tool].
 
-The Migrate Editions Tool requries link:https://github.com/internetarchive/openlibrary/wiki/Writing-Bots[bot privileges]. If you do not have or want bot privileges, please submit a merge request instead.
+The Migrate Editions Tool requires link:https://github.com/internetarchive/openlibrary/wiki/Writing-Bots[bot privileges]. If you do not have or want bot privileges, please submit a merge request instead.
 
 === 9. Perform the actual merge
 

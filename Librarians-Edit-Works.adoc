@@ -9,7 +9,7 @@
 
 Every published work should have one profile, that combines all its editions, and clearly differentiates it from other works. Metadata should help readers to find the book they are looking for.
 
-(For the exact definition of the terms _work_ and _edition_, see: glossary)
+For the exact definition of the terms _work_ and _edition_, see: glossary. For eligible works, consult xref:Librarians-Deletion.adoc  [Non-Book entries].
 
 == Problem
 
@@ -71,7 +71,7 @@ A **literary series** describes books that were intentionally connected by the a
 
 Any librarian can include books to a series with the tag [series:Name_Of_Series].
 
-(_Literary series_ need to be distinguished from _publisher's series_, where a publisher bundles editions under one brand. Examples would be _Longman African classics_ by Pearson, the _Malaysian heritage series_ by S. Abdul Majeed & Co. or _Twayne’s world authors series_ by Gale. Those should be inserted on the xref:Librarians-Edit-Editions.adoc[edition's page], instead.)
+(_Literary series_ need to be distinguished from _publisher's series_, where a publisher bundles editions under one brand. Examples would be _Longman African classics_ by Pearson, the _Malaysian heritage series_ by S. Abdul Majeed & Co. or _Twayne’s world authors series_ by Gale. Those should be inserted on the xref:Librarians-Edit-Works.adoc[work's page], instead.)
 
 A **collection** consists of books on a certain topic chosen by a librarian. They might collect all stories that belong to a certain franchise, have a strong thematic bent or are helpful for a specific group of readers.
 
@@ -79,20 +79,20 @@ Those are marked with the tag [collection:Name_Of_Collection].
 
 Only curators can add books to a collection, please see xref:curated-collections.adoc[Create Curated Collections] for details.
 
-An **award** is a special kind of collection, which includes winners or nominees for certain literature focussed awards.
+An **award** is a special kind of collection, which includes winners or nominees for certain literature focused awards.
 
-Those are marked with the tag [award:Name_Of_Award=categorie].
+Those are marked with the tag [award:Name_Of_Award=category].
 
 Otherwise, awards work just like other collections.
 
 ==== A person? Or, people?
 
-This can be any individual or group of individuals. If a name describes several persons, you should add qualifiers like date of birth, date of death, or occupation. You may also enter fictional, legendary or mythic names. Qualifiers should be added in parantheses after the name.
+This can be any individual or group of individuals. If a name describes several persons, you should add qualifiers like date of birth, date of death, or occupation. You may also enter fictional, legendary or mythic names. Qualifiers should be added in parentheses after the name.
 
 ====
 :example:
 
-* عائشة بنت يوسف الباعونية (Sufi mystic, ? - 1517)
+* ʿĀ’ishah bint Yūsuf al-Bāʿūniyyah (Sufi mystic, ? - 1517)
 * John Wick (fictional character)
 ====
 

@@ -73,7 +73,7 @@ The dates of birth and death. This helps to keep authors with similar or identic
 
 === Does this author go by any other names?
 
-Enter any pen names, pseudonyms, transliterations and other alternative names the author might be known as. You can also include common abbreviations or mispellings of an author's name.
+Enter any pen names, pseudonyms, transliterations and other alternative names the author might be known as. You can also include common abbreviations or misspellings of an author's name.
 
 === Identifiers
 
@@ -109,7 +109,7 @@ Both IDs are numerical and clearly shown as ID on the respective website.
 
 Wikidata is a multilingual knowledge graph. It does not only identify the author, but also powers the _Already Read Stats_ on OpenLibrary. This requires a link between Wikidata and OpenLibrary: Both must know the ID of the other.
 
-The Wikidata ID always starts with a *Q* followed by numbers and can be found in parantheses directly after the name (highlighted in blue in the screenshot below).
+The Wikidata ID always starts with a *Q* followed by numbers and can be found in parentheses directly after the name (highlighted in blue in the screenshot below).
 
 image:images/Librarians-EditAuthors_WikidataAuthor.png["Screenshot of Wikidata title Chimamamanda Ngozi Adichie, followed by (Q230141) in a blue box"]
 

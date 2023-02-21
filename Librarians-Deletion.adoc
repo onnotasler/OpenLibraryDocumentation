@@ -69,7 +69,7 @@ Check whether an entry is truly invalid according to our content guidelines for 
 
 Sometimes, invalid entries can be clearly connected to a specific work. This most commonly happens with marketing material, for example a floor display with several copies of a book. In this case, the invalid entry should be merged with the valid work and only the invalid editions are deleted.
 
-If invalid entries are just losely connected to a work (for example a toy based on a character from a book), it should be deleted directly.
+If invalid entries are just loosely connected to a work (for example a toy based on a character from a book), it should be deleted directly.
 
 ==== Deletion
 

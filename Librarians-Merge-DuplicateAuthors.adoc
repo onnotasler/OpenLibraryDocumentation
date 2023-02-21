@@ -37,7 +37,7 @@ Before submitting a merge requests, Librarians should thoroughly check all profi
 === Lead Librarians
 Only lead librarians can merge authors. It is extremely difficult to undo an author merge gone wrong, thus author merges require utmost care and extensive checking. If in doubt, ask for a review of your proposed merge. Only merge if you are absolutely certain.
 
-WARNING: If you detect any mistaken author merge, immediately notify Lisa (Agent Sapphire), either on Slack or via the Contact Form. If possible, include the merge URL (see: <<anchor-ManualMerge,Manual Merge>>). Desist from any other repair attempts. The quicker you report an accidental merge, and the less changes occured after the accidental merge, the easier it can be undone.
+WARNING: If you detect any mistaken author merge, immediately notify Lisa (Agent Sapphire), either on Slack or via the Contact Form. If possible, include the merge URL (see: <<anchor-ManualMerge,Manual Merge>>). Desist from any other repair attempts. The quicker you report an accidental merge, and the less changes occurred after the accidental merge, the easier it can be undone.
 
 ==== 1. Check whether truly all books in all selected profiles are from the same author.
 
@@ -54,7 +54,7 @@ You should check at least link:https://viaf.org/[VIAF] for other authors with th
 Some author entries have import data in their profile History. This can also help with establishing the identity of a profile. The History can be found on the bottom left of the page. If the first entry reads _Imported from_ followed by a name like _MARC record_ that doubles as a link, the link points to the import data.
 
 ==== 3. Clean conflated author names
-Sometimes the author profile name consists of several different authors. This happens most often with translations or anthologies, where all contributors were accidently written into one author field instead of separate author fields. It can also be caused by faulty OCR during digitalization of older books.
+Sometimes the author profile name consists of several different authors. This happens most often with translations or anthologies, where all contributors were accidentally written into one author field instead of separate author fields. It can also be caused by faulty OCR during digitalization of older books.
 
 Conflated authors need to be resolved before a merge. Everyone mentioned in the author field needs to get properly added: either to the author field, if they wrote at least parts of the work themselves, or as contributors in the edition record, if they were translators, illustrators, narrators or the like. (For details on where to add contributors, consult the documentation on editing books).
 
@@ -92,7 +92,7 @@ TIP: The magic merge wand only works on one search page. It forgets all highligh
 
 Once you have selected all duplicate profiles, click on the _Merge Authors…_ button at the bottom right of the page. This will open the Merge UI.
 
-image:images/Librarians-Merge-DuplicateAuthors_authors-merge-UI.png[The Merge UI. First colum: Primary. Second Column: Merge. Third column: Author information.]
+image:images/Librarians-Merge-DuplicateAuthors_authors-merge-UI.png[The Merge UI. First column: Primary. Second column: Merge. Third column: Author information.]
 
 In the Merge UI, you will have to choose a primary profile (first column, marked blue on the screenshot). All other profiles will redirect to this profile. As explained in step 4, this should always be the oldest profile.
 
