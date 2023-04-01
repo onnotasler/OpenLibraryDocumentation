@@ -88,7 +88,7 @@ The magic merge wand is integrated into the search results. Search for duplicate
 
 image:images/Librarians-Merge-DuplicateAuthors_authors-merge-wand.png[Screenshot: Three Search Results for the author _Miller_, two are selected with a blue hue, one is unselected and remains grey.]
 
-TIP: The magic merge wand only works on one search page. It forgets all highlights if you switch to another search page. If you want to merge duplicate author profiles from different search result pages, you need to either do it iteratively, manually or tweak your search (see: Search documentation).
+TIP: The magic merge wand remembers your selections, even if you start a new search.
 
 Once you have selected all duplicate profiles, click on the _Merge Authors…_ button at the bottom right of the page. This will open the Merge UI.
 
