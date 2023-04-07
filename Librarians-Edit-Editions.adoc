@@ -63,7 +63,7 @@ Ideally, write the cities in the native language of the country of origin follow
 ====
 
 ==== When was it published?
-The date when a specific edition was relased to the public. You should usually find it in the imprint at the first few pages of the books -- usually a line that contains a year preceded by _this printing_ or something similar.
+The date when a specific edition was released to the public. You should usually find it in the imprint at the first few pages of the books -- usually a line that contains a year preceded by _this printing_ or something similar.
 
 OpenLibrary defaults to the Gregorian calendar.
 
