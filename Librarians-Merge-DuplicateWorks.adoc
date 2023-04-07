@@ -129,7 +129,7 @@ The magic merge wand is integrated into the search results. Search for duplicate
 
 image:images/Librarians-Merge-DuplicateWorks_works_merge-wand.png[]
 
-TIP: The magic merge wand remembers your selections, even if you start a new search.
+TIP: The magic merge wand remembers your selections, even if you start a new search. Make sure to empty it before starting on a new work!
 
 Once you have selected all duplicate profiles, click on the _Merge Works_ button at the bottom right of the page. This will open the Merge UI.
 
