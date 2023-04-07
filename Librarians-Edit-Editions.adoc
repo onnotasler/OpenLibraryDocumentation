@@ -25,7 +25,7 @@ Open any editions's profile and click the _Edit_ button at the upper right corne
 
 OpenLibrary will load the edit pages which includes two tabs: _Work Details_ and an _edition tab_, whose name usually starts with the publisher name followed by publication date. OpenLibrary usually loads the _edition tab_ by default.
 
-image:images/Librarians-EditWorks-Tabs.png["Screenshot showing Editing, Things They Lost, by Okwiri Oduor, WORK DETAILS, Scribner edition, 2022. Scribner edition, 2022 is surrounded by a blue box."]
+image:images/Librarians-EditEditions-Tabs.png["Screenshot showing Editing, Things They Lost, by Okwiri Oduor, WORK DETAILS, Scribner edition, 2022. Scribner edition, 2022 is surrounded by a blue box."]
 
 === This Edition
 
