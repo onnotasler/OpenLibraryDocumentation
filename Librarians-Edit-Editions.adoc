@@ -161,7 +161,7 @@ Anything about the book that may be of interest and which takes it apart from ot
 
 === Is it known by any other titles? 
 
-Sometimes books are published under different names, a common example are books with an UK and an US version -- for example Cecelia Ahern's _If You Could See Me Now_ (UK) as _A Silver Lining_ (US). It also happens with books that were turned into a movie to TV series -- for example Michael Crichton's _Eaters of the Dead_ as _The 13th Warrior_.
+Sometimes books are published under different names, a common example are books with an UK and an US version -- for example Cecelia Ahern's _If You Could See Me Now_ (UK) as _A Silver Lining_ (US). It also happens with books that were turned into a movie to TV series -- for example Michael Crichton's _Eaters of the Dead_ as _The 13^th^ Warrior_.
 
 If the edition is a collection or anthology, you may also add the individual titles of each work here -- for example, if a whole series was bundled in a box.
 
