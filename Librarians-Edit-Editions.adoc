@@ -1,0 +1,230 @@
+= Edition profiles
+:icons: image
+:icondir: images/icons/
+:icontype: svg
+:toc:
+:toclevels: 4 
+
+== Goal
+
+Every published edition of a work should have one entry embedded within that work. Metadata should help readers to find the edition they are looking for.
+
+(For the exact definition of the terms _work_ and _edition_, see: glossary)
+
+== Problem
+
+We import books from a variety of sources, which use different data formats. This leads to inconsistencies and errors. Furthermore, not all sources offer all data we need, leading to incomplete descriptions.
+
+== Solution
+
+Edition profiles can be edited by everyone with an OpenLibrary account.
+
+== Procedure 
+
+Open any editions's profile and click the _Edit_ button at the upper right corner of the screen. If you get a _Permission denied_ error, you need to log in to OpenLibrary (see: OpenLibrary accounts).
+
+OpenLibrary will load the edit pages which includes two tabs: _Work Details_ and an _edition tab_, whose name usually starts with the publisher name followed by publication date. OpenLibrary usually loads the _edition tab_ by default.
+
+image:images/Librarians-EditWorks-Tabs.png["Screenshot showing Editing, Things They Lost, by Okwiri Oduor, WORK DETAILS, Scribner edition, 2022. Scribner edition, 2022 is surrounded by a blue box."]
+
+=== This Edition
+
+==== Title 
+The pure title that describes this specific edition, without any additions.
+
+Usually, the title should be rather obvious. Sometimes, vendors put series name, original titles of translated works or language information into the title. These should be removed from the title field and put into the correct field.
+
+==== Subtitle
+Used to distinguish between different books with similar titles or to add marketable information.
+
+If the series name is printed on the book cover, it can be entered here as well.
+
+=== Publishing Info
+
+==== Who is the publisher?
+
+*Publisher* can refer to a publishing company or organization, or to an individual who leads a publishing company, imprint, periodical or newspaper.
+
+Well known publishers are Penguin _Random House_, _Hachette_, _HarperCollins_, _Simon & Schuster_, and _Macmillan_. They often publish their books under imprints, like _Viking Penguin_.
+
+==== Where was the book published?
+
+The place a book was published, usually the city where the publisher's administration is located.
+
+Ideally, write the cities in the native language of the country of origin followed by the region, state or country separated by a comma.
+
+====
+:example:
+
+* Sydney, New South Wales, Australia
+* Sydney, Nova Scotia, Canada
+* Sydney, Hillsborough County, Florida, USA
+
+====
+
+==== When was it published?
+The date when a specific edition was relased to the public. You should usually find it in the imprint at the first few pages of the books -- usually a line that contains a year preceded by _this printing_ or something similar.
+
+OpenLibrary defaults to the Gregorian calendar.
+
+====
+:example:
+
+* 1947
+* June 16, 1952
+* XX June 1988
+
+====
+
+==== What is the copyright date?
+
+The copyright date can be found as copyright notice in the imprint, often abbreviated by a © followed by a year.
+
+Book published before 1710 cannot have a copyright notice, as that concept did not exist earlier. Books published after 1989 no longer require a copyright notice, but might have one. Books published between 1952 and 1989 should usually have one.
+
+==== Edition Name 
+
+An edition describes different revisions of a given work, which a publisher considered important enough to tell apart.
+
+====
+:example:
+
+Common edition names:
+
+* First edition
+* First American edition
+* Third, revised edition
+* Large Print Edition
+* Book club edition
+====
+
+Originally, an edition included all copies of a book printed from a type-page. Due to a lack of international definitions, the use of editions can be rather ambiguous.
+
+==== Series Name
+
+This field describes the *publisher's series*, where a publisher bundles editions under one brand. Examples would be _Longman African classics_ by Pearson, the _Malaysian heritage series_ by S. Abdul Majeed & Co. or _Twayne’s world authors series_ by Gale.
+
+You may also enter _literary series_, where author's intentionally connected several works, sometimes also called saga or cycle. Literary series should mainly be inserted on the xref:Librarians-Edit-Works.adoc[work's page] to make them searchable.
+
+=== Contributors
+
+Contributors
+List the people involved
+ By Statement: For example: edited by David Anderson 
+
+=== Languages
+
+Books are written in a language, and nobody speaks every language. Thus, it is extremely important to add the language the book is written in. For translations, also add the original title of the book and the original language.
+
+OpenLibrary accepts all languages defined in the link:https://www.loc.gov/marc/languages/language_name.html[MARC Code List for Languages].
+
+image:images/Librarians-Edit-Editions_language-translations.png[]
+
+Enter the language a certain edition was written in into **What language is this edition written in?**. If an edition was printed in multiple languages, for example a bilingual edition, add further languages with **Add another language?**.
+
+==== Is it a translation of another book?
+ * No
+ * Yes, it's a translation
+
+Check *No* if the edition's language is identical to the original language. Otherwise, check *Yes, it's a translation* and enter data about the original book.
+
+==== Original book
+Enter the title of the original book, usually identical to the work title, and the language the original was written in.
+
+=== Content
+
+==== Description of this edition 
+If this edition has a different blurb than the work, add it here. If the edition has the same blurb, leave this field empty.
+
+==== Table of Contents
+The table of contents can contain up to 4 column. A column can be created two ways: Either with a * or with a |. The * creates an empty cell, whereas the | separates two cells. A line break creates a new row.
+
+
+[cols="1,1,1,1"]
+|===
+|Column 1 | Column 2 | Column 3 | Column 4
+
+|*
+|**
+|\***
+|\****
+
+| 1 \|
+| 2 \|
+| 3 \|
+| 4
+|===
+
+==== Any notes about this specific edition?
+
+Anything about the book that may be of interest and which takes it apart from other editions, like different illustrations or an improved index.
+
+=== Is it known by any other titles? 
+
+Sometimes books are published under different names, a common example are books with an UK and an US version -- for example Cecelia Ahern's _If You Could See Me Now_ (UK) as _A Silver Lining_ (US). It also happens with books that were turned into a movie to TV series -- for example Michael Crichton's _Eaters of the Dead_ as _The 13th Warrior_.
+
+If the edition is a collection or anthology, you may also add the individual titles of each work here -- for example, if a whole series was bundled in a box.
+
+=== What work is this an edition of?
+
+This links an edition to a specific work. Sometimes editions can be associated with the wrong work, in that case, librarians can reassign them here. Simply enter the ID or the title of the correct work here and save your change.
+
+WARNING: When assigning an edition to another work, all other changes will be lost. Make sure to save before re-assigning an edition!
+
+=== ID Numbers
+An ID number or identifier clearly denotes a unique item, in our case a specific edition of a work. This makes it easier to distinguish between similar editions.
+
+The most important ID numbers for OpenLibrary are ISBN and WorldCat, followed by ASIN for Amazon only eBooks. Other IDs are more situational, for example the identifiers of different National Libraries or other associations.
+
+==== ISBN
+ISBN stands for International Standard Book Number, which consists of a numerical code and an alphanumeric checksum. It is the most commonly used identifier for books published after 1966. The format of ISBN changed three times so far:
+
+SBN:: 9 digit SBN, used between 1966 and 1974.
+ISBN-10:: 10 digit ISBN, used between 1970 and 2006.
+ISBN-13:: 13 digit ISBN, used since 2007.
+
+Books published before 1966 cannot have an ISBN, and books published before 1970 most likely won't have one. It can be written with or without hyphens, OpenLibrary will only save the pure number without hyphens.
+
+It is possible to convert the different ISBN into each other:
+SBN to ISBN-10:: Prefix the 9 bit SBN with a 0 to turn it into an ISBN-10 (345-24223-8 becomes 0-345-24223-8).
+ISBN-10 to ISBN-13:: Prepend the ISBN with 978 and recalculate the checksum digit (0-345-24223-8 becomes 978-0-345-24223-5).
+ISBN-13 to ISBN-10:: Only possible for ISBN-13 that start with 978. In that case, remove the 978 and recalculate the checksum digit (978-0-345-24223-5 becomes 0-345-24223-8).
+
+Conversion can be done automatically with an link:https://www.isbn.org/ISBN_converter[ISBN Converter].
+
+==== WorldCat
+The WorldCat identifier is clearly marked as _OCLC Number / Unique Identifier_ on the website and consists of a numerical code.
+
+WorldCat is an union catalogue that combines the catalogues of several thousand libraries. Their identifier is used in several databases to identify books published before 1970, and is the most valuable tool for libarians to sort editions.
+
+==== ASIN
+The Amazon Standard Identification Number is used by the online retail giant Amazon to identify its products. It consists of a ten digit alphanumeric code and starts with a B.
+
+Printed books do not need an ASIN, as they are identical to the ISBN-10. Ebooks or digital audio books often lack an ISBN, especially if they are only distributed via Amazon. As Amazon became a major player in the self-publisher market, the ASIN is quite often the only available identifier for some editions.
+
+==== Other Identifiers
+
+OpenLibrary supports more than 50 identifiers, and new ones are regularly added. Please refer to the xref:EditionIdentifiersOnOpenLibrary.adoc[identifier description] for more details.
+
+=== Classifications
+
+A classification allows a library to sort and arrange resources systematically, to make them easy to find. OpenLibrary mainly uses classifications as imported from library MARC records.
+
+Classifying a book goes well beyond the scope of this documentation, please refer to link:https://en.wikipedia.org/wiki/Library_classification[Wikipedia] or ask your local library for more information.
+
+=== The Physical Object
+What sort of book is it? Paperback; Hardcover, etc. 
+How many pages?
+Pagination?
+How much does the book weigh?
+Dimensions
+centimeters inches    
+
+Web Book Providers
+Add a provider 
+
+First sentence
+
+=== Please, leave a short note about what you changed
+
+This is not necessary, but helps to find the last proper edit and to understand why the item was edited.
