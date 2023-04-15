@@ -161,7 +161,7 @@ Anything about the book that may be of interest and which takes it apart from ot
 
 === Is it known by any other titles? 
 
-Sometimes books are published under different names, a common example are books with an UK and an US version -- for example Cecelia Ahern's _If You Could See Me Now_ (UK) as _A Silver Lining_ (US). It also happens with books that were turned into a movie to TV series -- for example Michael Crichton's _Eaters of the Dead_ as _The 13^th^ Warrior_.
+Sometimes books are published under different names, a common example are books with an UK and an US version -- for example Cecelia Ahern's _If You Could See Me Now_ (UK) as _A Silver Lining_ (US). It also happens with books that were turned into a movie or TV series -- for example Michael Crichton's _Eaters of the Dead_ as _The 13^th^ Warrior_.
 
 If the edition is a collection or anthology, you may also add the individual titles of each work here -- for example, if a whole series was bundled in a box.
 
@@ -213,17 +213,35 @@ A classification allows a library to sort and arrange resources systematically, 
 Classifying a book goes well beyond the scope of this documentation, please refer to link:https://en.wikipedia.org/wiki/Library_classification[Wikipedia] or ask your local library for more information.
 
 === The Physical Object
-What sort of book is it? Paperback; Hardcover, etc. 
-How many pages?
-Pagination?
-How much does the book weigh?
-Dimensions
-centimeters inches    
+==== What sort of book is it?
+The book's binding, the most common forms are hardcover and paperback (sometimes also called softcover). Most online stores show the type of book, but there are also link:https://www.emptymirrorbooks.com/collecting/book-bindings[illustrated guides] for book bindings.
 
-Web Book Providers
-Add a provider 
+==== How many pages?
+The total amount of pages a book has, regardless of pagination or content.
 
-First sentence
+==== Pagination?
+The hightest page number printed on any page of the book. Most books have pages without a page number, therefore this number will usually lower than the total amount of pages. If a books uses multiple numbering systems, all are listed -- a typical example would be Roman numerals for pages before the first chapter. Empty pages might be stated in square brackets.
+
+====
+:example:
+
+[1 - 7], VIII - XI, 12 - 174, [175 - 176]
+====
+
+==== How much does the book weigh?
+The book's weight (or, for physic purists: the book's mass) in g, kg or ounces.
+
+==== Dimensions
+The book's size measured in centimeters or inches.
+
+=== Web Book Providers
+
+Web books are books that were published directly as web pages instead of any traditional book format.
+
+When clicking on _Add a provider_, a new line appears where you can enter name and URL of the web book.
+
+=== First sentence
+The book's first sentence. If a book has a foreword or prologue, usually the first sentence of the first chapter, instead.
 
 === Please, leave a short note about what you changed
 
