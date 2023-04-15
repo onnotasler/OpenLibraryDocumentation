@@ -220,7 +220,7 @@ The book's binding, the most common forms are hardcover and paperback (sometimes
 The total amount of pages a book has, regardless of pagination or content.
 
 ==== Pagination?
-The hightest page number printed on any page of the book. Most books have pages without a page number, therefore this number will usually lower than the total amount of pages. If a books uses multiple numbering systems, all are listed -- a typical example would be Roman numerals for pages before the first chapter. Empty pages might be stated in square brackets.
+The highest page number printed on any page of the book. Most books have pages without a page number, therefore this number will usually lower than the total amount of pages. If a books uses multiple numbering systems, all are listed -- a typical example would be Roman numerals for pages before the first chapter. Empty pages might be stated in square brackets.
 
 ====
 :example:
