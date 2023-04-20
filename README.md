@@ -10,8 +10,8 @@ The documentation is written in AsciiDoc using [asciidoctor](https://asciidoctor
 [Works](Librarians-Edit-Works.adoc)
 
 ## Merging
-[Authors]Librarians-Merge-DuplicateAuthors.adoc
-[Works]Librarians-Merge-DuplicateWorks.adoc
+[Authors](Librarians-Merge-DuplicateAuthors.adoc)
+[Works](Librarians-Merge-DuplicateWorks.adoc)
 At the moment, Editions cannot be merged.
 
 ## Invalid Entries
