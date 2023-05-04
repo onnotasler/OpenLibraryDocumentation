@@ -69,19 +69,19 @@ OpenLibrary also uses subjects to link a book to a series or a collection.
 
 A **literary series** describes books that were intentionally connected by the author or authors, sometimes also called saga or cycle. Famous examples are _地球往事 (Remembrance of Earth's Past)_ by 刘慈欣 (Liu Cixin), _The Lord of the Rings_ by J. R. R. Tolkien, _The Loyal League_ by Alyssa Cole or _Brooklyn Brujas_ by Zoraida Córdova.
 
-Any librarian can include books to a series with the tag [series:Name_Of_Series].
+Any librarian can include books to a series with the tag _series:Name_Of_Series_.
 
 (_Literary series_ need to be distinguished from _publisher's series_, where a publisher bundles editions under one brand. Examples would be _Longman African classics_ by Pearson, the _Malaysian heritage series_ by S. Abdul Majeed & Co. or _Twayne’s world authors series_ by Gale. Those should be inserted on the xref:Librarians-Edit-Editions.adoc[edition's page], instead.)
 
 A **collection** consists of books on a certain topic chosen by a librarian. They might collect all stories that belong to a certain franchise, have a strong thematic bent or are helpful for a specific group of readers.
 
-Those are marked with the tag [collection:Name_Of_Collection].
+Those are marked with the tag _collection:Name_Of_Collection_.
 
 Only curators can add books to a collection, please see xref:curated-collections.adoc[Create Curated Collections] for details.
 
 An **award** is a special kind of tag, which includes winners or nominees for certain literature focused awards.
 
-Those are marked with the tag [award:Name_Of_Award=category].
+Those are marked with the tag _award:Name_Of_Award=category_.
 
 Otherwise, awards work just like other tags.
 
