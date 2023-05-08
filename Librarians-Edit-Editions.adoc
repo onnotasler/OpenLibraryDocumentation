@@ -61,7 +61,7 @@ Ideally, write the cities in the native language of the country of origin follow
 ====
 
 ==== When was it published?
-The date when a specific edition was relased to the public. The publication date is usually on the title or copyright pages of a book, but dates are sometimes on the jacket or back cover. If there are multiple dates listed use the latest date provided. This is sometimes phrased as published, printed, or copyright.
+The date when a specific edition was released to the public. The publication date is usually on the title or copyright pages of a book, but dates are sometimes on the jacket or back cover. If there are multiple dates listed use the latest date provided. This is sometimes phrased as published, printed, or copyright.
 
 Dates should be in [Extended Date/Time Format](https://www.loc.gov/standards/datetime/), Level 2 (EDTF) as defined by the Library of Congress. This allows for detailed combinations of known, unknown and estimated dates.
 
@@ -72,7 +72,7 @@ Dates should be in [Extended Date/Time Format](https://www.loc.gov/standards/dat
 * reduced precision for year: [year]
 ** 1985 refers to the calendar year 1985 with year precision.
 
-Missing digits should be replaced with an X, for example if we know that a book was released on the twelth of a month in 1985, but not during which month, to 1985-XX-12. A completely unknown date is thus written as XXXX.
+Missing digits should be replaced with an X, for example if we know that a book was released on the twelfth of a month in 1985, but not during which month, to 1985-XX-12. A completely unknown date is thus written as XXXX.
 
 The year can be prefixed with a minus to indicate the book was released before the common era (BCE), for example -753-04-21 for the mythical foundation of Rome.
 
@@ -94,7 +94,7 @@ The characters '?', '~' and '%' are used to mean _uncertain_, _approximate_, and
 If a book was released over a longer time span, one can enter two dates with a dash in between them.
 
 * 2004-02-01/2005-02-08
-** The release began on first of February 2004 and was finished on eigth of February 2005.
+** The release began on first of February 2004 and was finished on eighth of February 2005.
 
 ==== What is the copyright date?
 
