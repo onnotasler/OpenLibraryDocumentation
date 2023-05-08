@@ -25,7 +25,7 @@ Open any editions's profile and click the _Edit_ button at the upper right corne
 
 OpenLibrary will load the edit pages which includes two tabs: _Work Details_ and an _edition tab_, whose name usually starts with the publisher name followed by publication date. OpenLibrary usually loads the _edition tab_ by default.
 
-image:images/Librarians-EditEditions-Tabs.png["Screenshot showing Editing, Things They Lost, by Okwiri Oduor, WORK DETAILS, Scribner edition, 2022. Scribner edition, 2022 is surrounded by a blue box."]
+image:images/Librarians-EditEditions-Tabs.png[_Screenshot showing Editing, Things They Lost, by Okwiri Oduor, WORK DETAILS, Scribner edition, 2022. Scribner edition, 2022 is surrounded by a blue box._]
 
 === This Edition
 
@@ -43,9 +43,7 @@ If the series name is printed on the book cover, it can be entered here as well.
 
 ==== Who is the publisher?
 
-*Publisher* can refer to a publishing company or organization, or to an individual who leads a publishing company, imprint, periodical or newspaper.
-
-Well known publishers are Penguin _Random House_, _Hachette_, _HarperCollins_, _Simon & Schuster_, and _Macmillan_. They often publish their books under imprints, like _Viking Penguin_.
+The publisher or imprint should be added as it appears on the title page. If not present on the title page, it may be taken from the verso page.
 
 ==== Where was the book published?
 
@@ -63,24 +61,44 @@ Ideally, write the cities in the native language of the country of origin follow
 ====
 
 ==== When was it published?
-The date when a specific edition was released to the public. You should usually find it in the imprint at the first few pages of the books -- usually a line that contains a year preceded by _this printing_ or something similar.
+The date when a specific edition was relased to the public. The publication date is usually on the title or copyright pages of a book, but dates are sometimes on the jacket or back cover. If there are multiple dates listed use the latest date provided. This is sometimes phrased as published, printed, or copyright.
 
-OpenLibrary defaults to the Gregorian calendar.
+Dates should be in [Extended Date/Time Format](https://www.loc.gov/standards/datetime/), Level 2 (EDTF) as defined by the Library of Congress. This allows for detailed combinations of known, unknown and estimated dates.
 
-====
-:example:
+* Day precision: [year]-[month]-[day]
+** 1985-04-12 refers to the calendar date 1985 April 12th with day precision.
+* reduced precision for year and month: [year]-[month]
+** 1985-04 refers to the calendar month April in the year 1985 with month precision.
+* reduced precision for year: [year]
+** 1985 refers to the calendar year 1985 with year precision.
 
-* 1947
-* June 16, 1952
-* XX June 1988
+Missing digits should be replaced with an X, for example if we know that a book was released on the twelth of a month in 1985, but not during which month, to 1985-XX-12. A completely unknown date is thus written as XXXX.
 
-====
+The year can be prefixed with a minus to indicate the book was released before the common era (BCE), for example -753-04-21 for the mythical foundation of Rome.
+
+===== Estimated dates
+
+Sometimes the date given is clearly earlier than the printing of that edition. For example, if a movie-tie-in edition is dated twenty years before the movie was released, you may estimate the date according to the movie's release. It is always useful to include information about this in the comments of your edit.
+
+The characters '?', '~' and '%' are used to mean _uncertain_, _approximate_, and _uncertain_ as well as _approximate_, respectively. These characters may occur only at the end of the date string and apply to the entire date.
+
+* 1984?
+** year uncertain (possibly the year 1984, but not definitely)
+* 2004-06~
+** year-month approximate (around June 2004, but not definitely)
+* 2004-06-11%
+** entire date (year-month-day) uncertain and approximate (most likely release date was the 11th of June 2004, but not definitely).
+
+===== Date ranges
+
+If a book was released over a longer time span, one can enter two dates with a dash in between them.
+
+* 2004-02-01/2005-02-08
+** The release began on first of February 2004 and was finished on eigth of February 2005.
 
 ==== What is the copyright date?
 
-The copyright date can be found as copyright notice in the imprint, often abbreviated by a © followed by a year.
-
-Book published before 1710 cannot have a copyright notice, as that concept did not exist earlier. Books published after 1989 no longer require a copyright notice, but might have one. Books published between 1952 and 1989 should usually have one.
+he copyright date can be found as copyright notice in the imprint, often abbreviated by a © followed by a year. Only include if the imprint or title page offers a copyright date, because its usage differs wildly over time and jurisdictions.
 
 ==== Edition Name 
 
@@ -108,9 +126,7 @@ You may also enter _literary series_, where author's intentionally connected sev
 
 === Contributors
 
-Contributors
-List the people involved
- By Statement: For example: edited by David Anderson 
+People beside the author who were involved in the production of a book, for example an editor, a graphic designer or a typesetter.
 
 === Languages
 
@@ -140,7 +156,7 @@ If this edition has a different blurb than the work, add it here. If the edition
 The table of contents can contain up to 4 column. A column can be created two ways: Either with a * or with a |. The * creates an empty cell, whereas the | separates two cells. A line break creates a new row.
 
 
-[cols="1,1,1,1"]
+[cols=_1,1,1,1_]
 |===
 |Column 1 | Column 2 | Column 3 | Column 4
 
