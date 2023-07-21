@@ -7,15 +7,15 @@
 
 == Goal
 
-Every author should have one profile, that combines all its works, and clearly differentiates it from other authors.
+Every author should have one profile that lists all of their  works and clearly differentiates them from other authors.
 
 == Problem
 
-Authors are created in combination with a book, and thus imports often lack necessary data to tell different authors apart.
+Author profiles are created in combination with the importing of a book, and imports often lack the necessary data to tell different authors apart.
 
 == Solution
 
-Author profiles can be edited by everyone with an OpenLibrary account.
+Author profiles can be edited by anyone with an OpenLibrary account.
 
 == Procedure
 
@@ -23,14 +23,14 @@ Open any author's profile and click the _Edit_ button at the upper right corner 
 
 === Name
 
-Usually the author's real name, as written in legal documents of the author's place of origin. Pen names, pseudonyms, transliterations and other alternative names should go into the _Does this author go by any other names?_ field.
+Usually the author’s real name, as written in legal documents of the author’s place of origin. Pen names, pseudonyms, transliterations and other alternative names should go into the _Does this author go by any other names?_ field.
 
 ====
 :example:
 The Ukrainian author Марія Василівна Матіос is known as Maria Matios in countries that use Latin script. Hence, her profile name should be Марія Василівна Матіос, regardless of how her name was written on any given book.
 ====
 
-We do not differentiate name forms but simply write the name as it would be spoken in the original language. Not all cultures follow the first name, middle name, surname form common in  English, and translation between different naming conventions can be daunting. 
+We do not differentiate name forms but simply write the name as it would be spoken in the original language. Not all cultures follow the first name, middle name, surname form common in English, and translation between different naming conventions can be daunting.
 
 NOTE: The library convention to write _LAST NAME, first name middle name_ stems from the time of index cards in paper registers, when a human had to manually check card for card to find a given book. Modern computers can search many parts of an index simultaneously, making this structure mostly obsolete.
 
@@ -44,7 +44,7 @@ If an organization publishes a work, it is treated just like an individual autho
 
 ==== Shared pseudonyms
 
-Sometimes a group of writers shares a single pen name. In case of shared pseudonyms, the author profile uses the pseudonym as main name and has the real authors behind the pseudonym listed in the _Does this author go by any other names?_ field. Also all authors using the shared pseudonyms have the pseudonym's name written in their _Does this author go by any other names?_ field.
+Sometimes a group of writers shares a single pen name. In case of shared pseudonyms, the author profile uses the pseudonym as the main name and has the real authors behind the pseudonym listed in the _Does this author go by any other names?_ field. Also, all authors using the shared pseudonyms have the pseudonym’s name written in their _Does this author go by any other names?_ field.
 
 ====
 :example:
@@ -54,26 +54,26 @@ In this case, both Carmen Mola and the three real authors would get a separate p
 
 image:images/Librarians-EditAuthors_CarmenMola.png[Screenshot Name Carmen Mola, Does this author go by any other names?, Agustín Martínez; Jorge Díaz; Antonio Mercero]
 
-Each of those three authors would have the entry Carmen Mola in the same field, here as example the entry of Agustín Martínez.
+Each of the three authors would have the entry Carmen Mola in the Name field as shown in the entry of Agustín Martínez.
 
 image:images/Librarians-EditAuthors_AugustinMartinez.png[Screenshot Name Agustín Martínez, Does this author go by any other names? Carmen Mola]
 ====
 
 ==== A short bio?
 
-Ideally, this should give a short overview of the author's life and interest. This can greatly help to tell author's with similar names apart or to assign books correctly from a conflated entry.
+Ideally, a bio should give a short overview of the author’s life and interests. This can greatly help to differentiate between authors with similar names or to assign books correctly from a conflated entry.
 
 An organization as author should have its role and purpose described.
 
-A shared pseudonym should get an indication that the profile is used by multiple authors.
+A shared pseudonym should indicate that the profile is used by multiple authors.
 
 === Dates
 
-The dates of birth and death. This helps to keep authors with similar or identical names apart.
+The dates of birth and death. This helps to differentiate between authors with similar or identical names.
 
 === Does this author go by any other names?
 
-Enter any pen names, pseudonyms, transliterations and other alternative names the author might be known as. You can also include common abbreviations or misspellings of an author's name.
+Enter any pen names, pseudonyms, transliterations and other alternative names the author might be known as. You can also include common abbreviations or misspellings of an author’s name.
 
 === Identifiers
 
@@ -103,41 +103,50 @@ OpenLibrary author IDs always start with *OL*, followed by numbers, and ending w
 
 The _Virtual International Authority File (VIAF)_ and the _International Standard Name Identifier (ISNI)_ are the most reliable platforms to identify authors. Both combine vetted data from different sources into one dataset. They are indispensable for merging authors.
 
-Both IDs are numerical and clearly shown as ID on the respective website.
+Both IDs are numerical and are clearly shown as an ID on their respective websites.
 
 ==== Wikidata
 
-Wikidata is a multilingual knowledge graph. It does not only identify the author, but also powers the _Already Read Stats_ on OpenLibrary. This requires a link between Wikidata and OpenLibrary: Both must know the ID of the other.
+Wikidata is a multilingual knowledge graph. It not only identifies the author, but also powers the _Already Read Stats_ on OpenLibrary. This requires a link between Wikidata and OpenLibrary, so each must know the ID of the other.
 
-The Wikidata ID always starts with a *Q* followed by numbers and can be found in parentheses directly after the name (highlighted in blue in the screenshot below).
+The Wikidata ID always starts with a *Q* followed by numbers and can be found in parentheses directly after the author’s name (highlighted in blue in the screenshot below).
 
 image:images/Librarians-EditAuthors_WikidataAuthor.png["Screenshot of Wikidata title Chimamamanda Ngozi Adichie, followed by (Q230141) in a blue box"]
 
-To link Wikidata to OpenLibrary, you also need to enter the _OpenLibrary author ID_ into Wikidata. Scroll on the Wikidata page down to the Identifiers section and click on +add statement.
+To link Wikidata to OpenLibrary, you also need to enter the _OpenLibrary author ID_ into Wikidata. On the author’s Wikidata page at wikidata.org, scroll down to the bottom of the _Identifiers_ section and click on the _+add statement link_ as shown in the screenshot below.
 
-An empty box appears. Enter either _P648_ or _OpenLibrary ID_ into the Property field and select _OpenLibrary ID_ from the dropdown menu. Afterwards the cursor will jump into a blank field, paste the _OpenLibrary author ID_ into this field. The word publish after the checkmark should turn blue. Click on the blue publish to save your entry. Afterwards, it should look like the screenshot below.
+image:images/Librarians-EditAuthors_Wikidata_addstatement.png["Screenshot of Wikidata identifier section, followed by "+add statement" in a blue box"]
+
+An empty Property field appears. Enter either P648 or OpenLibrary ID into the Property field and select OpenLibrary ID from the dropdown menu as shown in the screenshot below. 
+
+image:images/Librarians-EditAuthors_Wikidata_addOLstatement.png["Screenshot of the add statement dialogue on Wikidata with the Open Library data type entered."]
+
+Afterwards the cursor will jump into a blank field, paste the OpenLibrary author ID into this field as shown in the screenshot below. The _publish_ link after the checkmark should turn blue.
+
+image:images/Librarians-EditAuthors_Wikidata_addOLstatementOLID.png["Screenshot of the add statement dialogue on Wikidata with the Open Library identifier entered and the publish link encased by a blue box."]
+
+Click on the blue _publish_ link to save your entry. Afterwards, it should look like the screenshot below.
 
 image:images/Librarians-EditAuthors_WikidataLinkOL.png["Screenshot of Wikidata entry OpenLibrary ID OL1393502A"]
 
 ==== Amazon ID
 
-Amazon uses its own internal ID for authors that subscribe to the _Amazon Author Central_. It is therefore useful for authors that publish directly through Amazon or that Amazon considered important enough to give an ID on their own.
+Amazon uses its own internal ID for authors who subscribe to _Amazon Author Central_. It is therefore useful for authors who publish directly through Amazon or that Amazon considers important enough to give an ID on their own.
 
-The Amazon ID is a 10 signs long alphanumeric code that starts with a *B*.
+The Amazon ID is a 10-digit alphanumeric code that starts with a *B*.
 
 ==== Goodreads, LibraryThing, The Storygraph
 
 Goodreads, LibraryThing and The Storygraph are social cataloging websites for storing and sharing book catalogs and various types of book metadata.
-
-The Goodreads author ID is a purely numeric code which can be found in the Goodreads URL between _/show/_ and a _._ followed by the author's name (highlighted in blue in the screenshot below).
+The Goodreads author ID is a purely numeric code which can be found in the Goodreads URL between _/show/_ and a “.” followed by the author’s name (highlighted in blue in the screenshot below).
 
 image:images/Librarians-EditAuthors_GoodreadsURL.png["Screenshot of Goodreads URL www.goodreads.com/author/show/1399.Leonard_Mlodinow, the 1399 is inside a blue box"]
 
-The LibraryThing author ID is an alphabetic code in Latin Script consisting of the authors last name followed by the first name (highlighted in blue in the screenshot below). If several authors share a name, they are separated by a hyphen followed by a number, for example -1.
+The LibraryThing author ID is an alphabetic code in Latin Script consisting of the author’s last name followed by the first name (highlighted in blue in the screenshot below). If several authors share a name, they are separated by a hyphen followed by a number, for example −1.
 
 image:images/Librarians-EditAuthors_LibraryThingURL.png["Screenshot of LibraryThing URL www.librarything.com/author/mlodinowleonard, the mlodinowleonard is inside a blue box"]
 
-The Storygraph author ID is a lengthy hyphen-grouped alphanumeric code at the end of the authors URL (highlighted in blue in the screenshot below).
+The Storygraph author ID is a lengthy hyphen-grouped alphanumeric code at the end of the author’s URL (highlighted in blue in the screenshot below).
 
 image:images/Librarians-EditAuthors_StorygraphURL.png["Screenshot of app.thestorygraph.com/authors/9b2c293c-7f6f-435b-8406-ef18f341063a, with 9b2c293c-7f6f-435b-8406-ef18f341063a in a blue box"].
 
@@ -145,11 +154,11 @@ image:images/Librarians-EditAuthors_StorygraphURL.png["Screenshot of app.thestor
 
 Both LibriVox and Project Gutenberg are volunteer efforts to make public domain works freely available. Project Gutenberg offers scanned and corrected texts, LibriVox turns public domain texts into free audio recordings.
 
-The Project Gutenberg author ID is purely numerical and can be found at the end of the URL after /author/ (highlighted in blue in the screenshot below).
+The Project Gutenberg author ID is purely numerical and can be found at the end of the URL after _/author/_ (highlighted in blue in the screenshot below).
 
 image:images/Librarians-EditAuthors_GutenbergAuthor.png["Screenshot of Project Gutenberg URL www.gutenberg.org/ebooks/author/306, the 306 is inside a blue box"]
 
-The LibriVox author ID is purely numerical and can be found between primary_key= and &search in the URL (highlighted in blue in the screenshot below).
+The LibriVox author ID is purely numerical and can be found between _primary_key=_ and _&search_ in the URL (highlighted in blue in the screenshot below).
 
 image:images/Librarians-EditAuthors_LibriVox.png["Screenshot of LibriVox URL librivox.org/author/189?primary_key=189&, the 189 is inside a blue box"]
 
