@@ -42,7 +42,7 @@ The deletion process depends on your status: Visitor, Patron, Librarian or Lead 
 
 === Visitors and Patrons
 
-Please report non-book and non-author entries through the [contact form](https://openlibrary.org/contact?path=%2F).
+Please report non-book and non-author entries through the https://openlibrary.org/contact[contact form].
 
 ==== Non-Authors
 We need the author profile ID. The profile ID starts with **OL** followed by numbers and ends with an **A**.
@@ -53,7 +53,7 @@ We need the work’s name and the work’s ID. The work ID starts with **OL** fo
 (You can simply copy the link to the profile, it contains the ID).
 
 === Librarians
-Librarians can report non-book and non-author entries either on the Slack channel #open-librarians-g or through the [contact form](https://openlibrary.org/contact?path=%2F), just like a Visitor or Patron.
+Librarians can report non-book and non-author entries either on the Slack channel #open-librarians-g or through the https://openlibrary.org/contact[contact form], just like a Visitor or Patron.
 
 === Lead Librarians
 
