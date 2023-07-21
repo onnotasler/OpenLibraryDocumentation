@@ -1,0 +1,62 @@
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+= Which types of books can I add to Open Library?
+:icons: image
+:icondir: images/icons/
+:icontype: svg
+:toc:
+:toclevels: 4
+
+== Goal
+
+OpenLibrary shall contain all the published books of humankind, and books only. 
+
+== Problem
+
+Sometimes, it is not clear whether an item is a book or not.
+
+== Solution
+
+The following are considered valid _books_ in the context of Open Library. Each format should be considered a distinct edition.
+
+WARNING: The presence of an ISBN does not indicate the item is a valid book.
+
+=== Print formats
+
+* Hardcovers
+* Trade Paperbacks
+* Mass Market Paperbacks
+* Spiral-Bound
+* Board Books
+* Pamphlets
+* Coloring Books
+* Workbooks
+* Bound Sheet Music
+* Theatre programs if containing significant editorial content or relevant photography. Programs composed only of ads should not be included.
+* Catalogs if containing significant editorial content. Catalogs containing product lists only should not be included. Catalogs with ISBN may be included.
+* Textbooks
+* Reference books
+* Boxed sets should be treated as omnibus edition if they have an ISBN specific to the set. Volumes should be added individually with their respective ISBNs. Volumes sold together without set-specific ISBN should only be added as individual volumes, not as a set.
+* Pictorials
+* Bound government reports
+* Comic books
+* Periodicals with ISBNs
+
+=== Audiobooks
+
+* Cassettes
+* CDs
+* Memory cards
+* Digital audio
+
+CAUTION: Please do not add recordings of plays or radio broadcasts unless they include the full text of the written work.
+
+=== Electronic formats
+
+* Electronic resources regardless of device or media
