@@ -1,0 +1,149 @@
+:icons: image
+:icondir: images/icons/
+:icontype: svg
+:toc:
+:toclevels: 4 
+
+= Identifiers for books on OpenLibrary
+
+An ID number or identifier clearly denotes a unique item, in our case a specific edition of a work. This makes it easier to distinguish between similar editions.
+
+The most important ID numbers for OpenLibrary are ISBN and WorldCat, followed by ASIN for Amazon only eBooks. Other IDs are more situational, for example the identifiers of different National Libraries or other associations.
+
+A full list of all identifiers can be found at link:https://openlibrary.org/config/edition[https://openlibrary.org/config/edition].
+
+== Important identifiers
+
+==== ISBN
+ISBN stands for International Standard Book Number, which consists of a numerical code and an alphanumeric checksum. It is the most commonly used identifier for books published after 1966. The format of ISBN changed three times so far:
+
+SBN:: 9 digit SBN, used between 1966 and 1974.
+ISBN-10:: 10 digit ISBN, used between 1970 and 2006.
+ISBN-13:: 13 digit ISBN, used since 2007.
+
+Books published before 1966 cannot have an ISBN, and books published before 1970 most likely won't have one. It can be written with or without hyphens, OpenLibrary will only save the pure number without hyphens.
+
+It is possible to convert the different ISBN into each other:
+SBN to ISBN-10:: Prefix the 9 bit SBN with a 0 to turn it into an ISBN-10 (345-24223-8 becomes 0-345-24223-8).
+ISBN-10 to ISBN-13:: Prepend the ISBN with 978 and recalculate the checksum digit (0-345-24223-8 becomes 978-0-345-24223-5).
+ISBN-13 to ISBN-10:: Only possible for ISBN-13 that start with 978. In that case, remove the 978 and recalculate the checksum digit (978-0-345-24223-5 becomes 0-345-24223-8).
+
+Conversion can be done automatically with an link:https://www.isbn.org/ISBN_converter[ISBN Converter].
+
+==== WorldCat
+The WorldCat identifier is clearly marked as _OCLC Number / Unique Identifier_ on the website and consists of a numerical code.
+
+WorldCat is an union catalogue that combines the catalogues of several thousand libraries. Their identifier is used in several databases to identify books published before 1970, and is the most valuable tool for libarians to sort editions.
+
+== National Libraries
+
+==== Bayerische Staatsbibliothek
+The _BSB-ID_ found on the book detail page.
+
+==== Biblioteca Nacional de España Depósito Legal
+The _N.º depósito legal_ as shown on the _Registro del catálogo_ tab.
+
+==== Bibliothèque nationale de France (BnF)
+The _Identifiant de la notice_ which starts with _ark:/_.
+
+==== British National Bibliography
+The _System number_ listed beneath _Identifier_
+
+==== Canadian National Library Archive
+The _Item ID number_.
+
+==== Deutsche Nationalbibliothek
+The number behind _Link zu diesem Datensatz_, without dash and text (except for a possible X at the end).
+
+==== Kansalliskirjastoon (National Library of Finland)
+The _fikka_ number which can be found in the URL (between fikka and question mark) or on the MARC tab (at line 999).
+
+==== Library of Congress (LCCN)
+The _LCCN_.
+
+==== Libris (National Library of Sweden)
+The _LIBRIS-ID_ as found on the _Detaljer_ tab.
+
+==== National Diet Library, Japan
+The _NDL Bibliographic ID_.
+
+==== National Library of Australia
+The _Bib ID_.
+
+==== National Library of Ukraine
+The number at the end of the URL after адреса матеріалу (address of the material).
+
+== Social Book Catalogues
+
+==== Goodreads
+The Goodreads book ID is a purely numeric code which can be found in the Goodreads URL between _/show/_ and a _._ followed by the book's name.
+
+==== Storygraph
+The Storygraph book ID consists of an alphanumeric code with hyphens found in the URL after _/books/_.
+
+==== Library Thing
+The librarything work ID consists of a numerical code shown in the URL after _/work/_.
+
+== Public and University Libraries
+
+==== Boston Public Library
+An alphanumeric ID found in the URL after _/record/_.
+
+==== Cornell University ecommons
+Cornell's Digital Repository shows the ID as an field called _URI_, it always starts with _https://hdl.handle.net/_, followed by a number. The number is the required ID.
+
+==== Cornell University Library Catalog
+The ID is shown as numeric code at the end of the URL after _/catalog/_.
+
+==== Digital Library of Pomerania
+The _Resource Identifier_ can be found after clicking the _More_ button, the required identifier is the number at the end of the identifier beginning with _oai:_.
+
+==== ULRLS (University of London Libraries)
+The ID can be found as _Persistent link for this record:_, only the number after _record=_ is required.
+
+==== Library of the Dominican Institute for Oriental Studies 
+The number from the URL after _/manifestation/_
+
+==== Oxford University Bodleian Library Aleph System Number
+The _Aleph System Number_ is clearly shown as such on a work's page.
+
+==== Oria (Bibsys ID)
+The _Object ID_ as shown in the _Details_ tab.
+
+==== Biodiversity Heritage Library
+A numeric ID that can be found in the URL after _/bibliography/_.
+
+==== Harvard University Library
+The _HOLLIS_ number shown on the book page and in the permanent URL.
+
+== Book sharing
+
+==== Book Crossing
+The Book Crossing ID (BCID) is a numerical ID found in the URL after _/journal/_.
+
+==== Book Mooch
+The Bookmooch ID can be both an ISBN or an ASIN. It can be found in the ISBN entry of a book's detail page.
+
+==== Paperback Swap
+The Paperback Swap ID can be found in the URL after _/book/_.
+
+== Public Domain
+
+==== Project Gutenberg
+The numeric Project Gutenberg ID can be found in the URL after _/ebooks/_.
+
+==== Standard Ebooks
+The alphabetic Standard Ebooks ID can be found in the URL after _/ebooks/_.
+
+==== LibriVox
+The numeric LibriVox ID can be found in the RSS feed URL, it is the number at the end.
+
+====  Wikisource
+The alphabetic Wikisource ID can be found in the URL after _/wiki/_.
+
+== Vendors
+
+==== ASIN
+The Amazon Standard Identification Number is used by the online retail giant Amazon to identify its products. It consists of a ten digit alphanumeric code and starts with a B.
+
+Printed books do not need an ASIN, as they are identical to the ISBN-10. Ebooks or digital audio books often lack an ISBN, especially if they are only distributed via Amazon. As Amazon became a major player in the self-publisher market, the ASIN is quite often the only available identifier for some editions.
