@@ -141,9 +141,181 @@ The numeric LibriVox ID can be found in the RSS feed URL, it is the number at th
 ====  Wikisource
 The alphabetic Wikisource ID can be found in the URL after _/wiki/_.
 
+== Databases
+
+label: Internet Speculative Fiction Database
+name: isfdb
+url: http://www.isfdb.org/cgi-bin/pl.cgi?@@@
+website: http://www.isfdb.org
+
+label: English Title Short Catalogue Citation Number
+name: etsc
+url: http://estc.bl.uk/@@@
+
+label: ISSN
+name: issn
+website: http://www.issn.org/
+
+
+label: ABAA (Antiquarian Booksellers’ Association of America)
+name: abaa
+notes:
+url: https://www.abaa.org/book/@@@
+website: https://www.abaa.org/
+
+label: Association for the Blind of Western Australia
+name: abwa_bibliographic_number
+notes:
+website: http://www.guidedogswa.org/library/openbiblio/shared/biblio_view.php?bibid=@@@&tab=opac
+
+label: Google
+name: google
+url: https://books.google.com/books?id=@@@
+
+label: Grand Comics Database
+name: grand_comics_database
+notes:
+url: https://www.comics.org/issue/@@@
+website: https://www.comics.org
+
+label: Hathi Trust
+name: hathi_trust
+url: https://catalog.hathitrust.org/Record/@@@
+website: https://hathitrust.org/
+
+label: INDUCKS
+name: inducks
+notes:
+url: https://inducks.org/issue.php?c=@@@
+website: https://inducks.org
+
+label: ISTC
+name: istc
+notes: Incunabula Short Title Catalogue
+url: https://data.cerl.org/istc/@@@
+website: https://data.cerl.org/istc/
+
+label: LearnAwesome.org
+name: learnawesome
+url: https://learnawesome.org/items/@@@
+website: https://learnawesome.org
+
+
+label: OverDrive
+name: overdrive
+url: https://www.overdrive.com/media/@@@
+website: https://www.overdrive.com
+
+
+label: Scribd
+name: scribd
+url: https://www.scribd.com/doc/@@@/
+website: https://www.scribd.com/
+
+label: ZDB-ID
+name: zdb-id
+notes: The ZDB is the world’s largest specialized database for serial titles (journals, annuals, newspapers etc., incl. e-journals).
+url: http://zdb-katalog.de/title.xhtml?ZDB-ID=@@@
+website: http://zdb-katalog.de
+
+
+label: Wikidata
+name: wikidata
+notes:
+url: https://www.wikidata.org/wiki/@@@
+website: https://wikidata.org
+
+label: OpenStax
+name: openstax
+notes: Should be a human readable URL slug
+url: https://openstax.org/details/books/@@@
+
 == Vendors
 
 ==== ASIN
 The Amazon Standard Identification Number is used by the online retail giant Amazon to identify its products. It consists of a ten digit alphanumeric code and starts with a B.
 
 Printed books do not need an ASIN, as they are identical to the ISBN-10. Ebooks or digital audio books often lack an ISBN, especially if they are only distributed via Amazon. As Amazon became a major player in the self-publisher market, the ASIN is quite often the only available identifier for some editions.
+
+
+label: Alibris ID
+name: alibris_id
+notes:
+url: https://www.alibris.com/booksearch?qwork=@@@
+
+label: Better World Books
+name: better_world_books
+notes:
+url: https://www.betterworldbooks.com/product/detail/@@@
+
+label: BookLocker.com
+name: booklocker.com
+notes:
+url: http://booklocker.com/books/@@@.html
+website: http://booklocker.com/
+
+label: Bowker BookWire
+name: bookwire
+notes:
+website: http://www.bookwire.com/
+
+label: Books For You
+name: booksforyou
+notes:
+url: http://www.booksforyou.co.in/@@@
+website: http://www.booksforyou.co.in
+
+label: Ilmiolibro
+name: ilmiolibro
+notes:
+url: https://ilmiolibro.kataweb.it/schedalibro.asp?id=@@@
+website: https://ilmiolibro.kataweb.it
+
+label: Lulu
+name: lulu
+url: https://www.lulu.com/product/@@@
+website: https://www.lulu.com
+
+label: Smashwords Book Download
+name: smashwords_book_download
+notes: Commission self-publishing platform
+url: https://www.smashwords.com/books/view/@@@
+website: https://www.smashwords.com
+
+label: W. W. Norton
+name: w._w._norton
+notes:
+url: http://books.wwnorton.com/books/detail.aspx?ID=@@@
+website: http://wwnorton.com
+
+label: Abebooks.de
+name: abebooks.de
+notes:
+url: https://www.abebooks.de/servlet/BookDetailsPL?bi=@@@
+website: https://www.abebooks.de
+
+label: DC Books
+name: dc_books
+notes:
+website: http://www.dcbooks.com/home
+
+label: Yakaboo
+name: yakaboo
+notes: eg https://www.yakaboo.ua/ua/zelene-svitlo.html
+url: https://www.yakaboo.ua/ua/@@@.html
+
+label: Folio
+name: folio
+notes:
+url: https://folio.com.ua/books/@@@
+
+label: Magcloud
+name: magcloud
+notes:
+url: http://www.magcloud.com/browse/Issue/@@@
+website: http://www.magcloud.com
+
+label: PublishAmerica
+name: publishamerica
+notes:
+website: http://www.publishamerica.com/
