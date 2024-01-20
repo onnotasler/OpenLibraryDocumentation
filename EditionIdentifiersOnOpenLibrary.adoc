@@ -44,13 +44,13 @@ The _BSB-ID_ found on the book detail page.
 The _N.º depósito legal_ as shown on the _Registro del catálogo_ tab.
 
 ==== Bibliothèque nationale de France (BnF)
-The _Identifiant de la notice_ which starts with _ark:/_.
+The _Identifiant de la notice_ which starts with _ark:/_, but just the alphanumeric ID after the _/_.
 
 ==== British National Bibliography
 The _System number_ listed beneath _Identifier_
 
 ==== Canadian National Library Archive
-The _Item ID number_.
+The _ID number_ is quite well hidden, one needs to click on _Link to this record_ and then search the displayed URL for the number after _&id=_.
 
 ==== Deutsche Nationalbibliothek
 The number behind _Link zu diesem Datensatz_, without dash and text (except for a possible X at the end).
