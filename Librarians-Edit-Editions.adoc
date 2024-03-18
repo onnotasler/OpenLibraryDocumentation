@@ -200,6 +200,9 @@ An ID number or identifier clearly denotes a unique item, in our case a specific
 
 The most important ID numbers for OpenLibrary are ISBN and WorldCat, followed by ASIN for Amazon only eBooks. Other IDs are more situational, for example the identifiers of different National Libraries or other associations.
 
+==== Internet Archive
+Eligible archive.org items may be linked to the corresponding Open Library record. The archive.org item's Identifier may be entered into this field. Always check that the archive.org item does not already have Open Library IDs noted on the record. Patron-uploaded items are not eligible and may not be linked from Open Library.
+
 ==== ISBN
 ISBN stands for International Standard Book Number, which consists of a numerical code and an alphanumeric checksum. It is the most commonly used identifier for books published after 1966. The format of ISBN changed three times so far:
 
