@@ -73,7 +73,7 @@ Editions that do not belong to a work need to be re-assigned to the correct work
 
 ==== 3. Assign orphaned editions
 
-Some entries look like works, but are orphaned editions instead. They cannot be merged, but need to be assigned to the correct work (see: Assigning Editions).
+Some entries look like works, but are orphaned editions instead. They cannot be merged, but need to be assigned to the correct work (see: xref:Librarians-Edit-Editions.adoc#what-work-is-this-an-edition-of>[Assigning Editions]).
 
 Orphaned editions can be identified in two ways:
 
