@@ -191,7 +191,7 @@ If the edition is a collection or anthology, you may also add the individual tit
 
 === What work is this an edition of?
 
-This links an edition to a specific work. Sometimes editions can be associated with the wrong work, in that case, librarians can reassign them here. Simply enter the ID or the title of the correct work here and save your change.
+This links an edition to a specific work. Sometimes editions can be associated with the wrong work, in that case, senior librarians can reassign them here. Simply enter the ID or the title of the correct work here and save your change.
 
 WARNING: When assigning an edition to another work, all other changes will be lost. Make sure to save before re-assigning an edition!
 
