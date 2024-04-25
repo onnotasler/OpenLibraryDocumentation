@@ -69,7 +69,7 @@ Look at the editions listed for each work. Make sure the titles are all correct 
 
 This also happens rather often when a book was released as complete volume and partial volumes. Usually, it is the first partial work that gets wrongly assigned to the complete work.
 
-Editions that do not belong to a work need to be re-assigned to the correct work before a merge (see: Assigning Editions).
+Editions that do not belong to a work need to be re-assigned to the correct work before a merge (see: xref:Librarians-Edit-Editions.adoc#what-work-is-this-an-edition-of>[Assigning Editions]).
 
 ==== 3. Assign orphaned editions
 
