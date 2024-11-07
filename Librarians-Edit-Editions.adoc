@@ -106,7 +106,7 @@ If a book was released over a longer time span, one can enter two dates with a d
 
 ==== What is the copyright date?
 
-he copyright date can be found as copyright notice in the imprint, often abbreviated by a © followed by a year. Only include if the imprint or title page offers a copyright date, because its usage differs wildly over time and jurisdictions.
+The copyright date can be found as copyright notice in the imprint, often abbreviated by a © followed by a year. Only include if the imprint or title page offers a copyright date, because its usage differs wildly over time and jurisdictions.
 
 ==== Edition Name 
 
