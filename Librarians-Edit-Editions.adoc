@@ -161,22 +161,29 @@ Enter the title of the original book, usually identical to the work title, and t
 If this edition has a different blurb than the work, add it here. If the edition has the same blurb, leave this field empty.
 
 ==== Table of Contents
-The table of contents can contain up to 4 column. A column can be created two ways: Either with a * or with a |. The * creates an empty cell, whereas the | separates two cells. A line break creates a new row.
+The table of contents can contain up to 3 columns. A column can be created with a |, which separates two cells. A line break creates a new row.
+If the third column contains a page number only and the book can be borrowed from OpenLibrary, the Table of Contents turns into a hyperlink which allows a reader to open the borrowed book on that specific page. Therefore, you should leave the first row empty if you only need two columns.
 
-
-[cols=_1,1,1,1_]
+[cols=_1,1,1_]
 |===
-|Column 1 | Column 2 | Column 3 | Column 4
-
-|*
-|**
-|\***
-|\****
+|Column 1 | Column 2 | Column 3 | 
 
 | 1 \|
 | 2 \|
-| 3 \|
-| 4
+| 3 
+
+| 1.
+| Chapter
+| Page 3 
+
+Furthermore, you can indent entries in the ToC. That is done by adding a * in front of the column. You can add up to four * in front of an entry. If, for example, you book consists of two sections with seven chapters each, you would write a single * in front of the section and ** in front of the chapters.
+
+If you enter this information into the Table of Content field:
+image:images/Librarians-EditEditions-ToC.png[]
+
+It will be formatted thusly:
+image:images/Librarians-EditEditions-ToC2.png[]
+
 |===
 
 ==== Any notes about this specific edition?
