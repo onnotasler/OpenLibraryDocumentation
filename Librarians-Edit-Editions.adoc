@@ -176,6 +176,8 @@ If the third column contains a page number only and the book can be borrowed fro
 | Chapter
 | Page 3 
 
+|===
+
 Furthermore, you can indent entries in the ToC. That is done by adding a * in front of the column. You can add up to four * in front of an entry. If, for example, you book consists of two sections with seven chapters each, you would write a single * in front of the section and ** in front of the chapters.
 
 If you enter this information into the Table of Content field:
@@ -184,7 +186,6 @@ image:images/Librarians-EditEditions-ToC.png[]
 It will be formatted thusly:
 image:images/Librarians-EditEditions-ToC2.png[]
 
-|===
 
 ==== Any notes about this specific edition?
 
