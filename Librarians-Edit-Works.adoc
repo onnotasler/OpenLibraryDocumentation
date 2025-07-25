@@ -164,6 +164,12 @@ image:images/Librarians-EditWorks-Links.png["Screenshot showing the header Links
 
 The link need to be relevant to the work, please report irrelevant links or spam through the link:https://openlibrary.org/contact[contact form].
 
+=== Work Identifiers
+
+Open Library supports a few identifiers that describe a whole work (as opposed to a specific edition). Most work identifiers are specific to certain subset of books (for example, the Japanese comics called *Manga*), and usually require background knowledge in that particular kind of book. 
+
+Works of high renown might also be listed on Wikidata. In that case, please synchronize both entries as described in the xref:Librarians-Edit-Author.adoc#wikidata[Wikidata section] of the Edit Authors page. Just be careful to include the Work identifier (ending with W) instead of the Author identifier (ending with an A) on Wikidata.
+
 === Please, leave a short note about what you changed
 
 This is not necessary, but helps to find the last proper edit and to understand why the item was edited.
