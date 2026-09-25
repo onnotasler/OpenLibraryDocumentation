@@ -13,6 +13,8 @@ The most important ID numbers for OpenLibrary are ISBN and WorldCat, followed by
 A full list of all identifiers can be found at link:https://openlibrary.org/config/edition[https://openlibrary.org/config/edition].
 
 == Important identifiers
+==== Internet Archive
+The identifier of the corresponding item on archive.org. Eligible items are typically imported automatically. If you notice an incorrectly linked item, please report it in Slack #open-librarians-g.
 
 ==== ISBN
 ISBN stands for International Standard Book Number, which consists of a numerical code and an alphanumeric checksum. It is the most commonly used identifier for books published after 1966. The format of ISBN changed three times so far:
